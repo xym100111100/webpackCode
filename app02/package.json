@@ -1,0 +1,23 @@
+{
+  "name": "app02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack"
+  },
+  "author": "dd",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^4.4.1"
+  }
+}
