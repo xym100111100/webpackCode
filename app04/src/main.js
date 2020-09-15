@@ -1,0 +1,1 @@
+document.write("编写一个插件")
